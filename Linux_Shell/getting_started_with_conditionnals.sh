@@ -1,19 +1,10 @@
 read x
 
-if [ $x == 'y' ]
+if [ $x == 'y' ] || [ $x == 'Y' ]
 then
         echo "YES"
-else if [ $x == 'Y' ]
-then
-        echo "YES"
-else if [ $x == 'n' ]
-then
-        echo "NO"
-else if [ $x == 'N' ]
+else if [ $x == 'n' ] || [ $x == 'N' ]
 then
         echo "NO"
 fi
 fi
-fi
-fi
-
